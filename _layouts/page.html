@@ -21,25 +21,22 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <a class="extra" href="/">home</a>
-              <a href="/"><img src="{{ site.root }}images/logo.png" height="42" width="42">
+              <a href="/"><img src="/images/logo.png" height="42" width="42">
               <h1 class="title">{{ site.name }}{% if page.title %} in {{ page.title }}{% endif %}</a></h1>
             </div>
-                {{ page.path }}
                 {{ content }}
 
             <div class="footer">
               <div class="contact">
                 <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
+                  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </p>
               </div>
               <div class="contact">
                 <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
+                  {% for person in site.authors %}
+                  <a href="{{ person.github }}"><img src="/images/github.png"></a><a href="{{ person.site }}">{{ person.name }}</a> 
+                  {% endfor %}
                 </p>
               </div>
             </div>
