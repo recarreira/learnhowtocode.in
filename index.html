@@ -1,13 +1,21 @@
 ---
 layout: page
-title: Where to Learn
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div id="code">
+    <ul>
+      {% for language in site.languages %}
+        <li><a href="/{{ language }}">{{ language }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div id="post-container">
+    <h2>News</h2>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
