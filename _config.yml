@@ -1,2 +1,19 @@
-name: Your New Jekyll Site
-pygments: true
+name: Learn How to Code
+email: contact@learnhowtocode.in
+
+## Authors
+authors:
+  -
+    name: Renata Carreira
+    site: http://renatacarreira.com
+    github: https://github.com/recarreira
+  -
+    name: Roberto Soares
+    site: http://robertosoares.me
+    github: https://github.com/roberto
+
+## Programming languages we cover
+languages: [ruby, python]
+
+## Extra configs
+pygments: false
