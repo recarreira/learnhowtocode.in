@@ -3,7 +3,7 @@
 require "rubygems"
 require "bundler/setup"
 
-deploy_branch   = "master"
+deploy_branch   = "gh-pages"
 public_dir      = "_site"     # compiled site directory
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
 
