@@ -4,7 +4,7 @@ title: Ruby
 language: ruby
 ---
 
-<h1>{{page.title}}</h1>
+<h1 style="font-size: 40px"><span class="icon-prog-ruby"> </span>{{page.title}}</h1>
 
 <p class="pt">
 {% include ruby/portuguese.md %}
