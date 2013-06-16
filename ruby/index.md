@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Where to Learn Ruby
+title: Ruby
 language: ruby
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Where to Learn Python
+title: Python
 language: python
 ---
 
