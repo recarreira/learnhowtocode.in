@@ -16,33 +16,51 @@
 
     </head>
     <body>
-
+    <div id="wrap">
+      <header class="header">
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <a href="/"><img src="/images/logo.png" height="42" width="42">
-              <h1 class="title">{{ site.name }}{% if page.title %} in {{ page.title }}{% endif %}</a></h1>
-            </div>
-                {{ content }}
+          <h1 class="title">
+            <a href="/">
+              {% if page.language %}
+              {<span class="icon-prog-{{ page.language }}"></span>} {{ site.name }} in {{ page.title }}
+              {% else %}
+              {?} {{ site.name }}
+              {% endif %}
+            </a>
+          </h1>
+        </div>
+      </header>
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  {% for person in site.authors %}
-                  <a href="{{ person.github }}"><img src="/images/github.png"></a><a href="{{ person.site }}">{{ person.name }}</a> 
-                  {% endfor %}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
+      {{ content }}
+      <div id="push"></div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="pull-left">
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+        <p class="pull-right">
+          Created by
+          {% for person in site.authors %}
+          <a href="{{ person.github }}"><img src="/images/github.png"></a>  <a href="{{ person.site }}">{{ person.name }}</a> 
+          {% endfor %}
+        </p>
+        </div>
+      </div>
+    </footer>
       <!-- Github Ribbon -->
       <a href="{{ site.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+      <script src="/js/bootstrap.js"></script>
+      <script>
+      $(function () {
+        $('#languages-nav a').click(function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+
+        $('#languages-nav a:first').tab('show');
+      });
+      </script>
     </body>
 </html>

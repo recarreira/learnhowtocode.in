@@ -4,7 +4,25 @@ title: Python
 language: python
 ---
 
-<h1 style="font-size: 40px"><span class="icon-prog-python"> </span>{{page.title}}</h1>
-
-{% include python/english.md %}
-{% include python/portuguese.md %}
+<div class="container main-content">
+    <div class="row">
+        <div class="span3">
+            <ul class="unstyled" id="languages-nav" data-spy="affix">
+                <li><a href="#english">English</a></li>
+                <li><a href="#portuguese">Português</a></li>
+            </ul>
+        </div>
+        <div class="span9">
+            <div class="tab-content">
+                <div class="tab-pane" id="portuguese">
+                {% capture pt %}{% include python/portuguese.md %}{% endcapture %}
+                {{ pt | markdownify }}
+                </div>
+                <div class="tab-pane" id="english">
+                {% capture en %}{% include python/english.md %}{% endcapture %}
+                {{ en | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

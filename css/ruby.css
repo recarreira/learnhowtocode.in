@@ -1,3 +1,16 @@
-body {
-  background-color: red;
+.header {
+  background-color: #ef5139;
 }
+
+.header a, .header a:hover {
+  color: #7a2300;
+}
+
+a, a:hover {
+  color: #ef5139;
+}
+
+#languages-nav li.active {
+  border-right: solid 1px #7a2300;
+}
+
