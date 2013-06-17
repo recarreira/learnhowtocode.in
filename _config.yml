@@ -18,3 +18,4 @@ languages: [ruby, python]
 
 ## Extra configs
 pygments: false
+paginate: 5
