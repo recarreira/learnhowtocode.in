@@ -19,3 +19,4 @@ languages: [ruby, python]
 ## Extra configs
 pygments: false
 paginate: 5
+exclude: [README.md,]
