@@ -14,7 +14,7 @@ authors:
     github: https://github.com/roberto
 
 ## Programming languages we cover
-languages: [Ruby, Rails, Python, Django]
+languages: [ruby, rails, python, django]
 
 ## Extra configs
 pygments: false
