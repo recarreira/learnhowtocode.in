@@ -7,12 +7,15 @@ body {
 }
 
 .header {
+  background-color: white;
   padding: 5px;
 }
 
-.header a {
+.header a, .header a:hover {
   text-decoration: none;
+  color: black;
 }
+
 
 #wrap {
   min-height: 100%;

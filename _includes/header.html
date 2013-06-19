@@ -1,0 +1,13 @@
+<header class="header">
+  <div class="container">
+    <h1 class="title">
+      <a href="/">
+        {% if page.language %}
+        {<span class="icon-prog-{{ page.language }}"></span>} {{ site.name }} in {{ page.title }}
+        {% else %}
+        {?} {{ site.name }}
+        {% endif %}
+      </a>
+    </h1>
+  </div>
+</header>

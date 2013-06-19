@@ -1,0 +1,20 @@
+.header {
+  padding: 50px;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin-bottom: 45px;
+}
+
+.header .tagline {
+  font-size: 20px;
+}
+
+.header .button {
+  font-size: 25px;
+  padding: 14px;
+  margin: 10px 20px 0px 0px;
+  display: inline-block;
+  border-radius: 6px;
+}

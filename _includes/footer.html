@@ -1,0 +1,14 @@
+  <footer class="footer">
+    <div class="container">
+      <p class="pull-left">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </p>
+      <p class="pull-right">
+        Created by
+        {% for person in site.authors %}
+        <a href="{{ person.github }}"><img src="/images/github.png"></a>  <a href="{{ person.site }}">{{ person.name }}</a>
+        {% endfor %}
+      </p>
+      </div>
+    </div>
+  </footer>

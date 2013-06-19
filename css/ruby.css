@@ -1,8 +1,8 @@
-.header {
+.header, .header .ruby.button {
   background-color: #ef5139;
 }
 
-.header a, .header a:hover {
+.header a, .header a:hover, .header .ruby.button {
   color: #7a2300;
 }
 
@@ -13,4 +13,3 @@ a, a:hover {
 #languages-nav li.active {
   border-right: solid 1px #7a2300;
 }
-

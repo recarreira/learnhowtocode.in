@@ -8,14 +8,14 @@
 
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/pictonic.css">
+        {% for language in site.languages %}
+        <link rel="stylesheet" href="/css/{{language}}.css">
+        {% endfor %}
         <link rel="stylesheet" href="/css/base.css">
-        {% if page.language %}
-        <link rel="stylesheet" href="/css/{{page.language}}.css">
-        {% endif %}
+        <link rel="stylesheet" href="/css/home.css">
     </head>
     <body>
       <div id="wrap">
-      {% include header.html %}
       {{ content }}
         <div id="push"></div>
       </div>
