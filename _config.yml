@@ -23,6 +23,10 @@ topics:
     name: Frameworks
     list: [rails, django]
     icon: prog
+  -
+    name: Tools
+    list:
+    icon: vc
 
 ## Extra configs
 pygments: false
