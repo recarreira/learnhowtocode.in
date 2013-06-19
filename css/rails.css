@@ -1,0 +1,16 @@
+.header {
+  background-color: #981A21;
+}
+
+.header a, .header a:hover {
+  color: #FFF;
+}
+
+a, a:hover {
+  color: #981A21;
+}
+
+#languages-nav li.active {
+  border-right: solid 1px #981A21;
+}
+
