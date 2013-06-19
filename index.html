@@ -6,28 +6,19 @@ layout: home
   <div class="container">
     <h1 class="title"><a href="/">{?} {{ site.name }}</a></h1>
     <p class="tagline">Pick one and have fun!</p>
-    {% if site.languages %}
-      <h3>Programing Languages:</h3>
-      <p>
-        {% for language in site.languages %}
-          <a class="{{ language }} button" href="/{{ language }}">
-            {<span class="icon-prog-{{ language }}"></span>}
-            {{ language }}
-          </a>
+    {% for topic in site.topics %}
+      {% if topic.list %}
+        <h3>{{ topic.name }}</h3>
+        <p>
+        {% for item in topic.list %}
+            <a class="{{ item }} button" href="/{{ item }}">
+              {<span class="icon-{{ topic.icon }}-{{ item }}"></span>}
+              {{ item }}
+            </a>
         {% endfor %}
-      </p>
-    {% endif %}
-    {% if site.frameworks %}
-      <h3>Frameworks</h3>
-      <p>
-        {% for framework in site.frameworks %}
-          <a class="{{ framework }} button" href="/{{ framework }}">
-            {<span class="icon-prog-{{ framework }}"></span>}
-            {{ framework }}
-          </a>
-        {% endfor %}
-      </p>
-    {% endif %}
+        </p>
+      {% endif %}
+    {% endfor %}
   </div>
 </header>
 

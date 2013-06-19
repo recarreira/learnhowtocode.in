@@ -8,11 +8,12 @@
 
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/pictonic.css">
-        {% for language in site.languages %}
-        <link rel="stylesheet" href="/css/{{language}}.css">
-        {% endfor %}
-        {% for framework in site.frameworks %}
-        <link rel="stylesheet" href="/css/{{framework}}.css">
+        {% for topic in site.topics %}
+          {% if topic.list %}
+            {% for item in topic.list %}
+              <link rel="stylesheet" href="/css/{{ item }}.css">
+            {% endfor %}
+          {% endif %}
         {% endfor %}
         <link rel="stylesheet" href="/css/base.css">
         <link rel="stylesheet" href="/css/home.css">

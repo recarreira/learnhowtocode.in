@@ -14,8 +14,15 @@ authors:
     github: https://github.com/roberto
 
 ## What we cover
-languages: [ruby, python]
-frameworks: [rails, django]
+topics:
+  -
+    name: Programming Languages
+    list: [ruby, python]
+    icon: prog
+  -
+    name: Frameworks
+    list: [rails, django]
+    icon: prog
 
 ## Extra configs
 pygments: false
