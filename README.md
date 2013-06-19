@@ -15,13 +15,13 @@ We have not covered yet the programming language that you want? Ask your friends
 3. Add your link inside the proper category (article, course, book, ...) using [markdown](http://en.wikipedia.org/wiki/Markdown) markup. Do not forget to indicate whether a content is paid or free. Should end up looking like this:
 
   ```markdown
-  ###[link title](link url) ![Free](/images/Free.png)
+  ###[link title](link url) ![Free](/images/free.png)
   Description
   ```
   or
 
   ```markdown
-  ###[link title](link url) ![Paid](/images/Paid.png)
+  ###[link title](link url) ![Paid](/images/paid.png)
   Description
   ```
 
