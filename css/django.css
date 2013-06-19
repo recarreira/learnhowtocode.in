@@ -1,8 +1,8 @@
-.header {
+.header, .django.button {
   background-color: #092e20;
 }
 
-.header a, .header a:hover {
+.header a, .header a:hover, .django.button, .django.button:hover {
   color: #ffffff;
 }
 
