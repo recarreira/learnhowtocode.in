@@ -13,8 +13,9 @@ authors:
     site: http://robertosoares.me
     github: https://github.com/roberto
 
-## Programming languages we cover
-languages: [ruby, rails, python, django]
+## What we cover
+languages: [ruby, python]
+frameworks: [rails, django]
 
 ## Extra configs
 pygments: false
