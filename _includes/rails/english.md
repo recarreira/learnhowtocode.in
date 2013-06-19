@@ -21,6 +21,11 @@ Learn Rails testing for your applications with these testing fundamentals. Brush
 
 - Source: [Code School](http://www.codeschool.com/)
 
+###[Testing with RSpec](http://www.codeschool.com/courses/testing-with-rspec) ![Paid](/images/paid.png)
+Learn to use this trusted testing framework for Ruby applications. Brush up on testing best practices with our Testing with RSpec course.
+
+- Source: [Code School](http://www.codeschool.com/)
+
 ###[Rails Best Practices](http://www.codeschool.com/courses/rails-best-practices) ![Paid](/images/paid.png)
 Learn Rails best practices with the most useful Rails patterns and techniques. If you're a Rails developer, consider this your new Rails programming playbook.
 
