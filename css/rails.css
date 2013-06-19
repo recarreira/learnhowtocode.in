@@ -1,8 +1,8 @@
-.header {
+.header, .button.rails {
   background-color: #981A21;
 }
 
-.header a, .header a:hover {
+.header a, .header a:hover, .button.rails, .button.rails:hover {
   color: #FFF;
 }
 
