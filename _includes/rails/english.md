@@ -35,3 +35,9 @@ Learn Rails best practices with the most useful Rails patterns and techniques. I
 There are many things involved in creating a complicated web application. There are clients, servers, and all of the things in between. This course walks us through what web applications are and the process of installing Ruby on Rails.
 
 - Source: [treehouse](http://teamtreehouse.com/)
+
+Books and Guides
+----------------
+
+###[Ruby on Rails Guides](http://guides.rubyonrails.org/) ![Free](/images/free.png)
+These are the new guides for Rails 3.2 based on v3.2.13. These guides are designed to make you immediately productive with Rails, and to help you understand how all of the pieces fit together. The guides for Rails 2.3.x are available [here](http://guides.rubyonrails.org/v2.3.11/).
