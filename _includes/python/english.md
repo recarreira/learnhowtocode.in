@@ -38,8 +38,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, magna ne
 ###[Learn Python](http://www.learnpython.org/) ![Free](/images/free.png)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, magna nec molestie venenatis, libero lorem tristique lectus, nec dapibus nisl metus at ante. Morbi nisi urna, congue auctor nunc.
 
-Books
------
+Books and Guides
+----------------
 
 ###[Learn Python The Hard Way](http://learnpythonthehardway.org/book/) ![Free](/images/free.png)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, magna nec molestie venenatis, libero lorem tristique lectus, nec dapibus nisl metus at ante. Morbi nisi urna, congue auctor nunc.
@@ -62,8 +62,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, magna ne
 ###[Python for Informatics](http://www.pythonlearn.com/book.php) ![Free](/images/free.png)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, magna nec molestie venenatis, libero lorem tristique lectus, nec dapibus nisl metus at ante. Morbi nisi urna, congue auctor nunc.
 
-Guides
-------
 
 ###[Begginer's Guide to Python](http://wiki.python.org/moin/BeginnersGuide) ![Free](/images/free.png)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, magna nec molestie venenatis, libero lorem tristique lectus, nec dapibus nisl metus at ante. Morbi nisi urna, congue auctor nunc.
