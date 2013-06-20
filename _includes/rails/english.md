@@ -41,3 +41,9 @@ Books and Guides
 
 ###[Ruby on Rails Guides](http://guides.rubyonrails.org/) ![Free](/images/free.png)
 These are the new guides for Rails 3.2 based on v3.2.13. These guides are designed to make you immediately productive with Rails, and to help you understand how all of the pieces fit together. The guides for Rails 2.3.x are available [here](http://guides.rubyonrails.org/v2.3.11/).
+
+Screencasts
+-----------
+
+###[RailsCasts](http://railscasts.com/) ![Free](/images/free.png) ![Paid](/images/paid.png)
+RailsCasts is produced by Ryan Bates. A free episode will be released on the first Monday of each month featuring tips and tricks with Ruby on Rails. The screencasts are short and focus on one technique so you can quickly move on to applying it to your own project. The topics target the intermediate Rails developer, but beginners and experts will get something out of it as well. A Pro option is also available containing more screencasts each week.
