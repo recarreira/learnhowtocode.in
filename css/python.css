@@ -1,8 +1,8 @@
-.header, .header .button.python {
+.header, .button.python {
   background-color: #326a95;
 }
 
-.header a, .header a:hover, .header .button.python {
+.header a, .header a:hover, .button.python {
   color: #ffd20a;
 }
 

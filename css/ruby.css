@@ -1,8 +1,8 @@
-.header, .header .ruby.button {
+.header, .ruby.button {
   background-color: #ef5139;
 }
 
-.header a, .header a:hover, .header .ruby.button {
+.header a, .header a:hover, .ruby.button {
   color: #7a2300;
 }
 

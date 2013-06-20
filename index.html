@@ -6,7 +6,10 @@ layout: home
   <div class="container">
     <h1 class="title"><a href="/">{?} {{ site.name }}</a></h1>
     <p class="tagline">Pick one and have fun!</p>
-    {% for topic in site.topics %}
+  </div>
+</header>
+<div class="container topics">
+  {% for topic in site.topics %}
       {% if topic.list %}
         <h3>{{ topic.name }}</h3>
         <p>
@@ -19,17 +22,4 @@ layout: home
         </p>
       {% endif %}
     {% endfor %}
-  </div>
-</header>
-
-<div class="container main-content">
-  <section class="news">
-    <h3>Last News</h3>
-      {% for post in paginator.posts %}
-        <article>
-        <h4>{{ post.date | date_to_string }} - {{post.title}}</h4>
-        {{ post.content }}
-        </article>
-      {% endfor %}
-  </section>
 </div>
