@@ -28,6 +28,9 @@ topics:
     list:
     icon: vc
 
+# Google Analytics
+google_analytics_tracking_id: UA-41916512-1
+
 ## Extra configs
 pygments: false
 exclude: [README.md,]
