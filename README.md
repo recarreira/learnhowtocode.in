@@ -29,5 +29,11 @@ We have not covered yet the topic that you want? Ask your friends to contribute 
   ###[link title](link url) ![Paid](/images/paid.png)
   Description
   ```
+  *Note: if the source request a donation or accept donations, you can indicate like this:*
+
+  ```markdown
+  ###[link title](link url) ![Free](/images/free.png) ![Donate](/images/donate.png)
+  Description
+  ```
 
 4. Commit and pull request. :)
