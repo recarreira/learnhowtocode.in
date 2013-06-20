@@ -22,3 +22,8 @@ The Koans walk you along the path to enlightenment in order to learn Ruby. The g
 
 - Source: [Code School](http://www.codeschool.com/)
 
+Books and Guides
+----------------
+
+###[Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/) ![Free](/images/free.png) ![Paid](/images/paid.png)
+Do you really want to learn programming but have no skill? Then you should read this book. It assumes absolutely no prior programming knowledge and will guide you carefully and slowly through the learning process. You can buy the PDF and ePub versions or read the [free HTML online version](http://ruby.learncodethehardway.org/book/).
