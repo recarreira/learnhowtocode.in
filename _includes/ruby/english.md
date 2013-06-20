@@ -1,3 +1,16 @@
+Courses
+-------
+
+###[LearnStreet - Ruby for Beginners](http://www.learnstreet.com/lessons/study/ruby) ![Free](/images/free.png)
+Learn one of the most elegant and expressive programming languages out there. Ruby is a great place to start for users who want to start learning Rails (a very popular web application framework). Websites like Twitter and Groupon use Ruby to power their websites.
+
+- Source: [LearnStreet](http://www.learnstreet.com/)
+
+###[Ruby - Codecademy](http://www.codecademy.com/tracks/ruby) ![Free](/images/free.png)
+Ruby is an incredibly popular programming language that helps power websites all over the world. Learn how to create a number of useful applications quickly and easily.
+
+- Source: [Codecademy](http://www.codecademy.com/)
+
 Tutorials
 ---------
 
