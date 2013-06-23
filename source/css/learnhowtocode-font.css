@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'learnhowtocode-font';
+	src:url('../font/learnhowtocode-font.eot');
+	src:url('../font/learnhowtocode-font.eot?#iefix') format('embedded-opentype'),
+		url('../font/learnhowtocode-font.woff') format('woff'),
+		url('../font/learnhowtocode-font.ttf') format('truetype'),
+		url('../font/learnhowtocode-font.svg#learnhowtocode-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'learnhowtocode-font';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-github, .icon-donate, .icon-free, .icon-paid, .icon-email, .icon-home, .icon-console {
+	font-family: 'learnhowtocode-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-github:before {
+	content: "\e000";
+}
+.icon-donate:before {
+	content: "\e001";
+}
+.icon-free:before {
+	content: "\e002";
+}
+.icon-paid:before {
+	content: "\e003";
+}
+.icon-email:before {
+	content: "\e004";
+}
+.icon-home:before {
+	content: "\e005";
+}
+.icon-console:before {
+	content: "\e006";
+}

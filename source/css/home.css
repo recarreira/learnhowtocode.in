@@ -8,8 +8,33 @@
   margin-bottom: 45px;
 }
 
+.header a, .header a:hover {
+  color: #225060;
+}
+
+.footer {
+  background-color: #225060;
+}
+
+.footer a, .footer a:hover {
+  color: #FCFCFC;
+}
+
+.footer {
+  color: #79BED4;
+}
+
+.header {
+  background-color: #FCFCFC;
+}
+
+a, a:hover {
+  color: #225060;
+}
+
 .header .tagline {
   font-size: 20px;
+  color: #2E7186;
 }
 
 .topics .button {
@@ -18,6 +43,10 @@
   margin: 10px 20px 0px 0px;
   display: inline-block;
   border-radius: 6px;
+}
+
+.topics{
+  color: #222222;
 }
 
 .topics a, .topics a:hover {

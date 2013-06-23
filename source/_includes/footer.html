@@ -6,7 +6,7 @@
       <p class="pull-right">
         Created by
         {% for person in site.authors %}
-        <a href="{{ person.github }}"><img src="/images/github.png"></a>  <a href="{{ person.site }}">{{ person.name }}</a>
+        <a href="{{ person.github }}"><span aria-hidden="true" class="icon-github"></span><a href="{{ person.site }}"> {{ person.name }} </a>
         {% endfor %}
       </p>
     </div>
