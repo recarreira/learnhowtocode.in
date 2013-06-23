@@ -82,10 +82,9 @@ body {
   padding-top: 20px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 980px) and (max-width: 1200px) {
   #languages-nav {
-    width: 700px;
-    position: static;
+    width: 220px;
   }
 }
 
