@@ -33,10 +33,8 @@ body {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   text-shadow: #FFF 0px 1px 0px;
-}
-
-#languages-nav {
-  width: 220px;
+  padding: 10px 0;
+  width: 270px;
 }
 
 #languages-nav a {
@@ -50,16 +48,26 @@ body {
   text-decoration: none;
 }
 
-#languages-nav li {
-  padding: 5px 20px;
-}
-#languages-nav li:hover {
-  background-color: #EEE;
-  border-right: solid 1px #D1D1D1;
+#languages-nav > li.active > a, #languages-nav > li.active > a:hover {
+  font-weight: bold;
+  background-color: #F1F1F1;
 }
 
-#languages-nav li.active {
-  border-right: solid 1px red;
+#languages-nav li:not(.active) a {
+  border-right: none;
+}
+
+#languages-nav li {
+  text-indent: 10px;
+}
+
+#languages-nav .subnav li {
+  text-indent: 20px;
+}
+
+#languages-nav li a:hover {
+  background-color: #EEE;
+  border-right: solid 1px #D1D1D1;
 }
 
 #push, .footer {

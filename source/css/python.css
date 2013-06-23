@@ -10,6 +10,6 @@ a, a:hover {
   color: #326a95;
 }
 
-#languages-nav li.active {
+#languages-nav > li.active > a, #languages-nav li a:hover {
   border-right: solid 1px #ffd20a;
 }

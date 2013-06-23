@@ -8,8 +8,12 @@ language: ruby
     <div class="row">
         <div class="span3">
             <ul class="unstyled" id="languages-nav" data-spy="affix">
-                <li><a href="#english">English</a></li>
-                <li><a href="#portuguese">Português</a></li>
+                <li>
+                    <a href="#english">English</a>
+                </li>
+                <li>
+                    <a href="#portuguese">Português</a>
+                </li>
             </ul>
         </div>
         <div class="span9">
