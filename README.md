@@ -12,6 +12,9 @@ Places around the web where you can learn how to code.
 * [Learn how to code in **Django**](http://learnhowtocode.in/django/)
 * [Learn how to code in **Rails**](http://learnhowtocode.in/rails/)
 
+#### Tools:
+* [Learn how to use **Git**](http://learnhowtocode.in/git/)
+
 We have not covered yet the topic that you want? Ask your friends to contribute to the project. :)
 
 ### How to contribute
