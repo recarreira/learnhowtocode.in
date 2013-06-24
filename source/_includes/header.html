@@ -2,10 +2,12 @@
   <div class="container">
     <h1 class="title">
       <a href="/">
-        {% if page.language %}
-        {<span class="icon-topic-{{ page.language }}"></span>} {{ site.name }} in {{ page.title }}
+        {% if page.tool %}
+           {<span class="icon-topic-{{ page.language }}"></span>} {{ page.tool }}
+        {% else if page.language %}
+          {<span class="icon-topic-{{ page.language }}"></span>} {{ site.name }} in {{ page.title }}
         {% else %}
-        {?} {{ site.name }}
+          {?} {{ site.name }}
         {% endif %}
       </a>
     </h1>

@@ -2,6 +2,7 @@
 layout: page
 title: Git
 language: git
+tool: Learn How to Use Git
 ---
 
 <div class="container main-content">
