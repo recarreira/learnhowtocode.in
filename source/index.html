@@ -15,7 +15,7 @@ layout: home
         <p>
         {% for item in topic.list %}
             <a class="{{ item }} button" href="/{{ item }}">
-              {<span class="icon-{{ topic.icon }}-{{ item }}"></span>}
+              {<span class="icon-topic-{{ item }}"></span>}
               {{ item }}
             </a>
         {% endfor %}

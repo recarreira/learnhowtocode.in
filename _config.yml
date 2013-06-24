@@ -18,15 +18,12 @@ topics:
   -
     name: Programming Languages
     list: [ruby, python]
-    icon: prog
   -
     name: Frameworks
     list: [rails, django]
-    icon: prog
   -
     name: Tools
-    list:
-    icon: vc
+    list: [git,]
 
 # Google Analytics
 google_analytics_tracking_id: UA-41916512-1
