@@ -29,3 +29,8 @@ The array of possible workflows can make it hard to know where to begin when imp
 
 - Source: [Atlassian](http://www.atlassian.com)
 
+Books and Guides
+----------------
+
+###[Git - The Simple Guide](http://rogerdudler.github.io/git-guide/) ![Free](/images/free.png)
+Just a simple guide for getting started with git. no deep shit ;)
