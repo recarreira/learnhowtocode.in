@@ -4,7 +4,10 @@ Learn How to Code
 Coletânea de materiais de estudo para desenvolvedores.
 
 
+
 ###Como contribuir?
+
+####Adicionar link
 É só forkar o [repositório](https://github.com/recarreira/learnhowtocode.in) e seguir os passos:
 
 1. Veja se o tópico que deseja existe em [source/_includes](https://github.com/recarreira/learnhowtocode.in/tree/master/source/_includes);
@@ -33,3 +36,15 @@ Coletânea de materiais de estudo para desenvolvedores.
   ```
 
 4. Quando terminar suas alterações, envie um [Pull Request](https://help.github.com/articles/using-pull-requests). :)
+
+
+####Adicionar tópico novo
+Infelizmente ainda não existe uma forma "automática" de gerar um tópico novo, mas está no topo da lista de coisas a fazer.
+
+Por enquanto, vale se basear nos já existentes.
+
+Veja os arquivos de Python como exemplo:
+
+- [/source/python](https://github.com/recarreira/learnhowtocode.in/tree/master/source/python)
+- [source/_includes/python](https://github.com/recarreira/learnhowtocode.in/tree/master/source/_includes/python)
+- [/source/css/python.css](https://github.com/recarreira/learnhowtocode.in/blob/master/source/css/python.css)

@@ -18,6 +18,8 @@ Places around the web where you can learn how to code.
 We have not covered yet the topic that you want? Ask your friends to contribute to the project. :)
 
 ### How to contribute
+
+#### Adding new link
 1. Find the topic you want to add your link inside [source/_includes](https://github.com/recarreira/learnhowtocode.in/tree/master/source/_includes) directory;
 2. Choose the file with the language (portuguese, english, ...) that your link belongs to;
 3. Add your link inside the proper category (article, course, book, ...) using [markdown](http://en.wikipedia.org/wiki/Markdown) markup. Do not forget to indicate whether a content is paid or free. Should end up looking like this:
@@ -40,3 +42,14 @@ We have not covered yet the topic that you want? Ask your friends to contribute 
   ```
 
 4. Commit and pull request. :)
+
+####Adding new topic
+We still don't have an automatic way to generate a new topic, but we are working on it.
+
+For now you can give a look at existing topics.
+
+See the Python files as example:
+
+- [/source/python](https://github.com/recarreira/learnhowtocode.in/tree/master/source/python)
+- [source/_includes/python](https://github.com/recarreira/learnhowtocode.in/tree/master/source/_includes/python)
+- [/source/css/python.css](https://github.com/recarreira/learnhowtocode.in/blob/master/source/css/python.css)
