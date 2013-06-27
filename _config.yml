@@ -17,7 +17,7 @@ authors:
 topics:
   -
     name: Programming Languages
-    list: [ruby, python]
+    list: [ruby, python, javascript]
   -
     name: Frameworks
     list: [rails, django]

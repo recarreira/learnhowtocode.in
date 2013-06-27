@@ -1,0 +1,15 @@
+.header, .button.javascript {
+  background-color: #F0DB4F;
+}
+
+.header a, .header a:hover, .button.javascript {
+  color: #323330;
+}
+
+a, a:hover {
+  color: #323330;
+}
+
+#languages-nav > li.active > a, #languages-nav li a:hover {
+  border-right: solid 1px #323330;
+}
