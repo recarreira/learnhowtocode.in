@@ -45,6 +45,8 @@ a[class^="icon-"], a[class*=" icon-"], span[class^="icon-"], span[class*=" icon-
 	*display: inline;
 }
 
+.icon-topic-javascript:before { content:""; } //js02
+
 .icon-topic-html5:before { content:""; }
 .icon-topic-html5-02:before { content:""; }
 .icon-topic-css3:before { content:""; }
