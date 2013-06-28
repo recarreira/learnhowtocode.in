@@ -7,6 +7,7 @@ Places around the web where you can learn how to code.
 #### Programming Languages:
 * [Learn how to code in **Python**](http://learnhowtocode.in/python/)
 * [Learn how to code in **Ruby**](http://learnhowtocode.in/ruby/)
+* [Learn how to code in **JavaScript**](http://learnhowtocode.in/javascript/)
 
 #### Frameworks:
 * [Learn how to code in **Django**](http://learnhowtocode.in/django/)
