@@ -4,8 +4,6 @@ Courses
 ###[An Introduction to Interactive Programming in Python](https://www.coursera.org/course/interactivepython) ![Free](/images/free.png)
 This course is designed to be a fun introduction to the basics of programming in Python. Our main focus will be on building simple interactive games such as Pong, Blackjack and Asteroids.
 
-- Workload: 7-9 hours/week
-- Oct 7th 2013 (9 weeks long)
 - Source: [Coursera](https://www.coursera.org/)
 
 ###[LearnStreet - Python for Beginners](http://www.learnstreet.com/lessons/study/python) ![Free](/images/free.png)
