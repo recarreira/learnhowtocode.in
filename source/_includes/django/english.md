@@ -9,3 +9,6 @@ This guide will show you how to build a variety of apps in Django 1.5. The first
 
 ###[Two Scoops of Django - Best Practices For Django 1.5](https://django.2scoops.org/) ![Paid](/images/paid.png)
 This book is chock-full of material that will help you with your Django projects. We’ll introduce you to various tips, tricks, patterns, code snippets, and techniques that we’ve picked up over the years. Great for beginning Django developers and developers with intermediate to advanced knowledge of Django who want to improve their Django projects.
+
+###[Getting Started with Django](http://gettingstartedwithdjango.com/) ![Free](/images/free.png)
+"Getting Started with Django" (or GSWD) is a series of video-based lessons meant to take you from novice to competent, or maybe even beyond.
