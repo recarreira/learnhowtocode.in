@@ -1,0 +1,15 @@
+.header, .git.button {
+  background-color: #f0efe7;
+}
+
+.header a, .header a:hover, .git.button, .git.button:hover {
+  color: #f14e32;
+}
+
+a, a:hover {
+  color: #f14e32;
+}
+
+#languages-nav > li.active > a, #languages-nav li a:hover {
+  border-right: solid 1px #f14e32;
+}

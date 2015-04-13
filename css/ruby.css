@@ -1,0 +1,15 @@
+.header, .ruby.button {
+  background-color: #ef5139;
+}
+
+.header a, .header a:hover, .ruby.button {
+  color: #7a2300;
+}
+
+a, a:hover {
+  color: #ef5139;
+}
+
+#languages-nav > li.active > a, #languages-nav li a:hover {
+  border-right: solid 1px #7a2300;
+}

@@ -1,0 +1,16 @@
+.header, .button.rails {
+  background-color: #981A21;
+}
+
+
+.header a, .header a:hover, .button.rails, .button.rails:hover {
+  color: #FFF;
+}
+
+a, a:hover {
+  color: #981A21;
+}
+
+#languages-nav > li.active > a, #languages-nav li a:hover {
+  border-right: solid 1px #981A21;
+}

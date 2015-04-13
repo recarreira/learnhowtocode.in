@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+.header {
+  background-color: white;
+  padding: 5px;
+}
+
+.header a, .header a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+#languages-nav {
+  background-color: #F1F1F1;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-shadow: #FFF 0px 1px 0px;
+  padding: 10px 0;
+  width: 270px;
+}
+
+#languages-nav a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+#languages-nav a:hover {
+  text-decoration: none;
+}
+
+#languages-nav > li.active > a, #languages-nav > li.active > a:hover {
+  font-weight: bold;
+  background-color: #F1F1F1;
+}
+
+#languages-nav li:not(.active) a {
+  border-right: none;
+}
+
+#languages-nav li {
+  text-indent: 10px;
+}
+
+#languages-nav .subnav li {
+  text-indent: 20px;
+}
+
+#languages-nav li a:hover {
+  background-color: #EEE;
+  border-right: solid 1px #D1D1D1;
+}
+
+#push, .footer {
+  height: 60px;
+}
+
+.footer {
+  background-color: #F1F1F1;
+}
+
+.footer p {
+  padding-top: 20px;
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
+  #languages-nav {
+    width: 220px;
+  }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+  #languages-nav {
+    width: 166px;
+  }
+}
+
+@media (max-width: 767px) {
+  #languages-nav {
+    width: 100%;
+    position: static;
+  }
+}
