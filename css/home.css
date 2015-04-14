@@ -1,6 +1,6 @@
 .header {
   padding: 50px;
-  background-color: #FCFCFC;
+  background-color: #F8F8F8;
 }
 
 .header h1 {
@@ -22,10 +22,6 @@
 
 .footer {
   color: #79BED4;
-}
-
-.header {
-  background-color: #FCFCFC;
 }
 
 a, a:hover {
